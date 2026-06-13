@@ -4,6 +4,11 @@ All notable changes to `ptplugins/filament-number-input` are documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.0.1] - 2026-06-13
+
+### Added
+- Listing banner (`screenshot.png`, 2560×1440) for the filamentphp.com/plugins submission, plus a README hero image carrying `filament-hidden` so it shows on GitHub/Packagist but not on the Filament listing (where the banner already appears).
+
 ## [1.0.0] - 2026-06-13
 
 ### Added

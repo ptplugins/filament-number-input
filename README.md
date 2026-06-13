@@ -1,5 +1,9 @@
 # Filament Number Input
 
+<p align="center">
+  <img src="./screenshot.png" alt="Filament Number Input — locale-aware numeric field that stores a clean float" width="100%" class="filament-hidden">
+</p>
+
 > A locale-aware numeric input field for [FilamentPHP](https://filamentphp.com/) **v3, v4, and v5**. The user types and sees a localized number (European `12.345,67` or US `12,345.67`); your model always stores a clean float (`12345.67`).
 
 Single codebase across all three Filament major versions — same field, same API.
