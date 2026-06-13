@@ -1,0 +1,9 @@
+# Keep the installable Composer package lean — dev/CI files are export-ignored
+# so they never ship in the dist zip users download.
+/.github            export-ignore
+/.gitattributes     export-ignore
+/.gitignore         export-ignore
+/tests              export-ignore
+/phpunit.xml        export-ignore
+/phpunit.xml.dist   export-ignore
+/.editorconfig      export-ignore

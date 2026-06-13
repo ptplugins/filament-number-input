@@ -1,0 +1,48 @@
+{
+    "name": "ptplugins/filament-number-input",
+    "description": "Locale-aware numeric input field for FilamentPHP. Formats decimal and thousands separators in the browser while always storing a clean float for the database.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "filament",
+        "filamentphp",
+        "laravel",
+        "number",
+        "currency",
+        "input",
+        "formatting",
+        "locale",
+        "form-field"
+    ],
+    "homepage": "https://ptplugins.com/filament-number-input",
+    "support": {
+        "issues": "https://github.com/ptplugins/filament-number-input/issues",
+        "source": "https://github.com/ptplugins/filament-number-input"
+    },
+    "authors": [
+        {
+            "name": "Premtech Plugins",
+            "email": "mihailo@ptplugins.com",
+            "homepage": "https://ptplugins.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0 || ^4.0 || ^5.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "autoload": {
+        "psr-4": {
+            "PtPlugins\\FilamentNumberInput\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PtPlugins\\FilamentNumberInput\\FilamentNumberInputServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
