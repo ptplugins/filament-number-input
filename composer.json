@@ -1,6 +1,6 @@
 {
     "name": "ptplugins/filament-number-input",
-    "description": "Locale-aware numeric input field for FilamentPHP. Formats decimal and thousands separators in the browser while always storing a clean float for the database.",
+    "description": "Locale-aware number input for FilamentPHP v3, v4, and v5. Users see 12.345,67 or 12,345.67 while your database always stores a clean float — no more broken SUM()s or cast errors from localized number strings.",
     "type": "library",
     "license": "MIT",
     "keywords": [

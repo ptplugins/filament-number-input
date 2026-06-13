@@ -12,6 +12,7 @@ Banner image to upload is `screenshot.png` (2560×1440) in this same folder.
 | **Name** | Filament Number Input |
 | **Package (Packagist)** | `ptplugins/filament-number-input` |
 | **Tagline** | Localized number input that always stores a clean float. |
+| **Short description** | Locale-aware number input for FilamentPHP v3, v4, and v5. Users see `12.345,67` or `12,345.67` while your database always stores a clean float — no more broken SUM()s or cast errors from localized number strings. |
 | **Repository** | https://github.com/ptplugins/filament-number-input |
 | **Packagist** | https://packagist.org/packages/ptplugins/filament-number-input |
 | **License** | MIT (Free) |

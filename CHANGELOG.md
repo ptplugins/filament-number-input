@@ -4,6 +4,11 @@ All notable changes to `ptplugins/filament-number-input` are documented here.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.0.2] - 2026-06-13
+
+### Changed
+- Sharpened the package `description` (Packagist / listing abstract): now names Filament v3/v4/v5 and leads with the pain it removes — "no more broken SUM()s or cast errors from localized number strings."
+
 ## [1.0.1] - 2026-06-13
 
 ### Added
